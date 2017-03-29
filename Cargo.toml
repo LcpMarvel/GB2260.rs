@@ -2,5 +2,11 @@
 name = "gb2260"
 version = "0.1.0"
 authors = ["LcpMarvel <lcpmarvel@gmail.com>"]
+build = "build.rs"
 
 [dependencies]
+phf = "0.7.8"
+
+[build-dependencies]
+phf_codegen = "0.7.8"
+serde_json = "0.9.9"
